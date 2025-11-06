@@ -31,7 +31,7 @@ export default function Service() {
                 <div className='relative sm:w-[70%] mx-auto  '>
                     <div className="flex flex-col justify-between sm:flex-row gap-6 pt-24 w-full">
 
-                        <div className="bg-[var(--color-secondary)] p-3 sm:min-h-[30vh] rounded-4xl sm:max-w-[250px]">
+                        <div data-aos="zoom-in-down" className="bg-[var(--color-secondary)]  p-3 sm:min-h-[30vh] rounded-4xl sm:max-w-[250px]">
                             <div className="space-y-2">
                                 <h1 className="text-amber-50 text-2xl font-semibold">
                                     Chat for Impact
@@ -45,7 +45,7 @@ export default function Service() {
 
 
 
-                        <div
+                        <div data-aos="zoom-in-down"
                             onMouseEnter={() => setIsHovered(true)}
                             onMouseLeave={() => setIsHovered(false)}
                             className="relative max-w-[430px] sm:min-h-[30vh] flex rounded-4xl overflow-hidden shadow-lg bg-cover bg-center"
@@ -86,7 +86,7 @@ export default function Service() {
                             </div>
                         </div>
 
-                        <div className="sm:w-[30%] bg-[var(--color-primary)]  h-[200px]  rounded-4xl p-3 flex  overflow-hidden ">
+                        <div data-aos="zoom-in-down" className="sm:w-[30%] bg-[var(--color-primary)]  h-[200px]  rounded-4xl p-3 flex  overflow-hidden ">
 
                             <div className="bg-black w-[14px] rounded-full h-full"></div>
 
@@ -133,7 +133,7 @@ export default function Service() {
 
 
                         {/* Child 1 - top left */}
-                        <div className="sm:absolute mb-8 sm:mb-0 sm:top-0 sm:left-0 rounded-5xl  flex items-center justify-center  font-bold">
+                        <div data-aos="zoom-in-down" className="sm:absolute mb-8 sm:mb-0 sm:top-0 sm:left-0 rounded-5xl  flex items-center justify-center  font-bold">
 
                             <div
                                 onMouseEnter={() => setIsHovered(true)}
@@ -158,7 +158,7 @@ export default function Service() {
                         </div>
 
                         {/* Child 2 - bottom right */}
-                        <div className="sm:absolute sm:bottom-0 w-full sm:w-[27%] right-0    flex items-center justify-center font-bold">
+                        <div data-aos="zoom-in-down" className="sm:absolute sm:bottom-0 w-full sm:w-[27%] right-0    flex items-center justify-center font-bold">
 
 
                             <div className="relative w-full mx-auto h-[25vh] sm:h-[400px] rounded-2xl overflow-hidden">

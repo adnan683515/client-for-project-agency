@@ -21,7 +21,7 @@ export default function HeroSection() {
             <div className="absolute w-full h-full bg-black/70"></div>
 
 
-            <div className="relative z-10 text-center text-white px-4">
+            <div data-aos="zoom-in-down" className="relative z-10 text-center text-white px-4">
                 <h1 className="text-[25px] sm:text-5xl md:text-6xl font-bold mb-4">
                     We Build Brands That <span className={`text-[var(--color-secondary)]`}>Convert</span>
                 </h1>

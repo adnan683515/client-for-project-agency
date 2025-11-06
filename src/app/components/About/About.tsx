@@ -13,7 +13,7 @@ export default function About() {
         <div className='max-w-[90%]  sm:px-0 mx-auto flex sm:flex-row flex-col  justify-between'>
 
 
-            <div className='sm:max-w-[45%]  flex items-center '>
+            <div data-aos="zoom-in-down" className='sm:max-w-[45%]  flex items-center '>
                 <div className='space-y-5  w-full'>
 
                     <div className='flex  gap-3'>

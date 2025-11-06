@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
-  output: 'export',
+  output: 'export',      // this enables static export
   images: {
-    unoptimized: true,
+    unoptimized: true,   // allows static export of images
   },
 };
 
